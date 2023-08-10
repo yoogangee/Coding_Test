@@ -1,9 +1,9 @@
 ## 이것이 취업을 위한 코딩 테스트다 (with. python)
 
 > 저자: 나동빈
-> 
+>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76aadbc0-bd74-4306-b45b-3bdd027fc85a/Untitled.png)
+<img src="https://user-images.githubusercontent.com/42762236/101512360-42125800-39be-11eb-9bcf-86173de1dada.png" width="300" height="400"/>
 
 ### 주요 알고리즘 이론과 실전 문제
 
