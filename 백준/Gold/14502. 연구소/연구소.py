@@ -32,7 +32,7 @@ def bfs(walls):
 n,m = map(int, input().split())
 lab = [list(map(int, input().split())) for _ in range(n)]
 
-dy,dx = [0,0,1,-1],[1,-1,0,0]
+dx,dy = [0,0,1,-1],[1,-1,0,0]
 empty = [] #빈칸 위치 저장 리스트
 virus = [] #바이러스 위치 저장 리스트
 check = [] #안전 구역 수 저장하는 리스트
