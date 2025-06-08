@@ -8,7 +8,7 @@ from itertools import combinations
 def bfs(walls):
     lab2 = copy.deepcopy(lab)
     q = deque(virus)  # 미리 저장된 바이러스 위치 사용
-
+    
     # 벽 세우기
     for x, y in walls:
         lab2[x][y] = 1
@@ -22,8 +22,11 @@ def bfs(walls):
                 lab2[nx][ny] = 2
                 q.append((nx, ny))
 
-    # 안전 영역(0의 개수) 세기
-    return sum(row.count(0) for row in lab2)
+    # 0 개수 세기
+    sol = 0
+    for k in lab2:
+        sol += k.count(0)
+    return sol
 
 
 n,m = map(int, input().split())
