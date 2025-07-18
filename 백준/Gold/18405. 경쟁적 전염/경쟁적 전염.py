@@ -1,4 +1,7 @@
 # 백준 18405 경쟁적 전염
+import sys
+input = sys.stdin.readline
+
 n, k = map(int, input().split())
 test = [list(map(int, input().split())) for _ in range(n)]
 s, x, y = map(int, input().split())
